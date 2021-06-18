@@ -1,0 +1,23 @@
+.buttons {
+  margin: 70px 20px 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.btn {
+  background-color: white;
+  border: none;
+  font-family: "Major Mono Display", monospace;
+  font-weight: 600;
+  font-size: 1.2em;
+  color: rgb(80, 74, 74);
+  margin: 2rem;
+  padding: 18px 32px;
+  border-radius: 25px;
+  transition: all 0.2s;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}

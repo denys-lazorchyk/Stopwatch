@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(60deg, rgb(231, 144, 73), rgb(80, 74, 74));
+  color: white;
+  min-height: 100vh;
+  /* font-family: 'Courier Prime', monospace; */
+  font-family: "Major Mono Display", monospace;
+}
