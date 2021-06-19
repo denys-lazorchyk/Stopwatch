@@ -15,9 +15,32 @@
   margin: 2rem;
   padding: 18px 32px;
   border-radius: 25px;
-  transition: all 0.2s;
+  transition: all 0.3s;
 }
 
 .btn:hover {
   transform: scale(1.1);
+  color: white;
+  background-color: rgb(80, 74, 74);
+}
+
+@media (max-width: 800px) {
+  .buttons {
+    width: 100vw;
+    margin: 0;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  div > .btn {
+    width: 80vw;
+  }
+
+  .btn {
+    margin: 1em;
+  }
+
+  .btn:hover {
+    transform: none;
+  }
 }

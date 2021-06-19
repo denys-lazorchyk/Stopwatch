@@ -35,7 +35,7 @@ export default class Main extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="main">
         <div className="measurements">
           <div>
             <h1 className="hours">{this.state.hours}</h1>
